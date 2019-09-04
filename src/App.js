@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React, { Fragment, Component, useEffect } from 'react';
+import React, { Fragment, Component } from 'react';
 import {
 	SafeAreaView,
 	StyleSheet,
@@ -16,6 +16,7 @@ import {
 	StatusBar,
 } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
+import { RootNavigator } from './navigators';
 
 import {
 	Header,
