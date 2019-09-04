@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React, { Fragment } from 'react';
+import React, { Fragment, Component, useEffect } from 'react';
 import {
 	SafeAreaView,
 	StyleSheet,
