@@ -19,11 +19,7 @@ const AuthNavigator = createStackNavigator(
 );
 
 export const RootNavigator = createAppContainer(
-	createSwitchNavigator(
-		{
-			Auth: AuthNavigator,
-			//  Main: MainNavigator, Loading: AuthLoadingUi
-		}
-		// { initialRouteName: 'Loading' }
-	)
+	createSwitchNavigator({
+		Auth: AuthNavigator,
+	})
 );

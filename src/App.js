@@ -16,7 +16,6 @@ import {
 	StatusBar,
 } from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
-import { RootNavigator } from './navigators';
 
 import {
 	Header,

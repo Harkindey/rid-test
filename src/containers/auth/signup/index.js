@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-export default class AuthenticateUi extends Component {
+export class SignUpUi extends Component {
 	render() {
 		return (
 			<View>
-				<Text> AUTH </Text>
+				<Text> SignUp </Text>
 			</View>
 		);
 	}
